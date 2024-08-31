@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="./media.html">Media</a></li>
+        <li><a href="./table.html">Table</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Media</h1>
+
+      <picture>
+        <source media="(min-width: 1024px)" srcset="./media/image.jpg" />
+        <source media="(min-width: 768px)" srcset="./media/image.jpg" />
+        <source media="(min-width: 320px)" srcset="./media/image.jpg" />
+        <img
+          src="./media/image.jpg"
+          alt="A picture "
+          style="max-width: 100%; height: auto"
+        />
+      </picture>
+
+      <audio controls>
+        <source src="./media/my-audio.mp3" type="audio/mpeg" />
+      </audio>
+
+      <video controls src="./media/my-video.mp4"></video>
+
+      <h2>My Skills</h2>
+      <ul>
+        <li>Javascript</li>
+        <li>HTML and CSS</li>
+      </ul>
+    </div>
+  </body>
+</html>

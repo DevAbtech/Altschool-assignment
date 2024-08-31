@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  justify-content: space-around;
+}
+header {
+  /* background-color: #ffffff; */
+  color: #1f2937;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #1f2937;
+}
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1f2937;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.section h2 {
+  color: #1f2937;
+  font-size: 14px;
+}
+
+.section p {
+  color: #1f2937;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #1f2937;
+  margin-top: 20px;
+}
+
+/* Components  */
+
+.btn-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #1f2937;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn-primary:hover {
+  background-color: #374151;
+}
+
+.btn-secondary {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  color: #1f2937;
+  border: 1px solid #1f2937;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn-secondary:hover {
+  background-color: #cccccc;
+}
